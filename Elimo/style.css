@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+  
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.main {
+    background-color: white;
+    background-image: url(Images/front.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    /*background-size: max(1200px,100vw);*/
+    background-size: auto;
+    height: 87.9vh;
+    position: relative;
+}
+
+body{
+    background-color: white;
+}
+
+.main .box {
+    height: 100vh;  
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/* nav{
+    max-width: 50vw;
+    transform: scale(1.5);
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 120px;
+} */
+
+/* nav img{
+    color: greenyellow;
+    width: 130px;
+    position: relative;
+    z-index: inherit;
+    cursor: pointer;
+} */
+
+.my {
+    max-width: 50%;
+    transform: scale(1.5);
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 19%;
+}
+
+nav button {
+    height: 19%;
+    position: relative;
+    z-index: inherit;
+    border: 1px solid white;
+    background-color: rgb(141, 73, 29);
+    color: black;
+    cursor: pointer; /* <-- Add this */
+}
+
+
+.hero{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0 6vw;
+    gap: 10px;
+    font-family: 'Cookie', sans-serif;
+    font-size: 150%;
+}
+
+.hero> :first-child{
+    /* font-weight: bolder; */
+    font-size: 250%;
+    text-align: start;
+}
+
+/* .hero> :nth-child(2){
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 16px;
+    text-align: center;
+} */
+
+.sep{
+    height: 1.5vh;
+    background-color:greenyellow;
+    opacity: 0.4;
+}
+
+.tren{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    margin: auto;
+    padding: 2vw;
+    padding-left: 42vw;
+}
+
+/* .trend-btn{
+    margin: 20px auto;
+    background-color: black;
+    color: black;
+    padding: 19px 105px 17px 18px;
+    border: 1px  solid white;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+.movie5{
+    display: flex;
+    gap: 25px;
+}
+
+.movie5 img{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    padding: 4.5vw;
+    margin: 2vh 8vh;
+    border: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.movie5 img:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.07);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgb(131, 195, 37);
+}
+
+.movie10{
+    display: flex;
+    gap: 25px;
+}
+
+.movie10 img{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    padding: 4.5vw;
+    margin: 2vh 8vh;
+    border: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.movie10 img:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.07);
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgb(131, 195, 37);
+}
+
+.btn,.btn-red-sm{
+    cursor: pointer !important;
+    pointer-events: auto;
+    background-color: white !important;
+    color: black !important;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 200;
+    font-family: 'Cookie', sans-serif;
+    font-size: 20px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.07);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* .btn-red{
+    padding: 14px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgb(131, 195, 37);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+} */
+
+.btn-red-sm{
+    padding: 3px 8px;
+    font-family: 'Cookie', sans-serif;
+    font-size: 20px;
+    background-color: rgb(141, 73, 29);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.btn-red-sm:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.07);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* .hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} */
+
+/* .main input{
+    padding: 17px 200px 8px 18px;
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(233, 229, 229, 0.5);
+} */
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70.77%;
+    margin: 0px;
+    color: black;
+    align-items: center;
+}
+
+.secimg{
+    background-color: white;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    /*background-size: max(1200px,100vw);*/
+    background-size: cover;
+    height: 65.5vh;
+    position: relative;
+    /* display: inline-block; */
+    /* width: 100%; */
+}
+
+.secimg img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    width: 141.3%;
+    height: 100%;
+    display: block;
+    /* position: relative;
+    z-index: 10; */
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    font-family: 'Cookie', sans-serif;
+    color: white;
+    padding: 10vh 2vw;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 2.7vw;
+}
+
+/* .secimg video{
+    position: absolute;
+    top: 87px;
+    right: 76px;
+} */
+
+/* section.first > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10;
+} */
+
+section.first > div :first-child{
+    font-size: 60%;
+}
+
+/* section.first > div :nth-child(2){
+    font-size: 24px;
+} */
+
+.enquire{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 73, 29);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 30%;
+    height: 10vh;
+    font-size: 170%;
+    /* padding: 3%; */
+    /* font-weight: 200; */
+    cursor: pointer;
+    font-family: 'Cookie', sans-serif;
+}
+
+.enquire:hover{
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(131, 195, 37);
+}
+
+.know{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 30%;
+    height: auto;
+    padding: 3%;
+    margin-top: 2%;
+    cursor: pointer;
+    font-family: 'Cookie', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.know:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/*Responsive*/
+@media (max-width: 1024px) {
+    .hero {
+        font-size: 1.3rem;
+    }
+    .hero > :first-child {
+        font-size: 2rem;
+    }
+    .movie5 img, .movie10 img {
+        width: 22vw;
+        padding: 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .hero > :first-child {
+        font-size: 1.8rem;
+    }
+    .movie5, .movie10 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie5 img, .movie10 img {
+        width: 60vw;
+        padding: 2vw;
+    }
+    .btn, .btn-red-sm {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        font-size: 1rem;
+        padding: 0 4vw;
+    }
+    .hero > :first-child {
+        font-size: 1.5rem;
+    }
+    .movie5 img, .movie10 img {
+        width: 80vw;
+        padding: 1vw;
+    }
+    .btn, .btn-red-sm {
+        font-size: 0.8rem;
+    }
+    .enquire, .know {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
